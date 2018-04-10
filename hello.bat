@@ -1,3 +1,4 @@
 #!/bin/bash
-clear
+javac HelloWorldTest.java
+javac HelloWorld.java
 java HelloWorldTest
