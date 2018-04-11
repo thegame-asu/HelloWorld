@@ -2,9 +2,8 @@
 
 
 echo "compiling..."
-javac HelloWorldTest.java
-javac HelloWorld.java
+javac -d "classes" TestHelloWorld.java
 echo "running the program..."
-java HelloWorld
+java -classpath "src" TestHelloWorld
 
-EOF
+sleep 5
